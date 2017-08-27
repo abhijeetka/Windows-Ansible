@@ -1,0 +1,6 @@
+---
+- name: Ensure if IIS is installed or not
+  win_feature:
+    name: Web-Server
+    state: present
+
