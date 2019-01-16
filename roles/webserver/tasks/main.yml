@@ -4,3 +4,6 @@
     name: Web-Server
     state: present
 
+- debug:
+    msg: "its a sample playbook"
+
